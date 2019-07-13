@@ -1,0 +1,39 @@
+{
+  "name": "dem13n/auth-mailru",
+  "description": "Allow users to login with Mail.ru",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8",
+    "aego/oauth2-mailru": "^2.0"
+  },
+  "authors": [
+    {
+      "name": "Dem13n",
+      "email": "idem13n@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dem13n\\Auth\\Mailru\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Mail.ru Login",
+      "icon": {
+                "name": "fas fa-at",
+                "backgroundColor": "#FFFFFF",
+                "color": "#fc2c38",
+                "border": "1px solid #75787b"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}

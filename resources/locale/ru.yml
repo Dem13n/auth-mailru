@@ -1,0 +1,10 @@
+dem13n-auth-mailru:
+     admin:
+         mailru_settings:
+              title: Настройки входа через Mail.ru
+              app_id_label: ID Приложения
+              app_secret_label: Секретный ключ
+              app_desc: Зарегистрировать свое приложение вы можете здесь <a>https://api.mail.ru/sites/my/add</a>
+              app_p:  Callback URL
+     forum:
+          login_with_mailru_button: Войти через Mail.ru
